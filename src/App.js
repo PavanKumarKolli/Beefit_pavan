@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Header } from "./Components/Header/Header";
+import ImageSlider from "./Components/ImageSlider/ImageSlider";
+import { Ourclasses } from "./Components/Ourclasses/Ourclasses";
+import { Whyus } from "./Components/Whyus/Whyus";
+
+const slides = [
+  {
+    image: "Images/banner 1.jpg",
+    text: "This is the first slide",
+  },
+  {
+    image: "Images/banner 2.jpg",
+    text: "This is the second slide",
+  },
+];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <ImageSlider slides={slides} />
+      <Whyus />
+      <Ourclasses />
     </div>
   );
 }
