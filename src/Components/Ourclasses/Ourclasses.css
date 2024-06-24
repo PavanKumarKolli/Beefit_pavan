@@ -31,7 +31,7 @@
   align-items: center;
   width: 350px;
   /* border: 1px solid red; */
-  background-color: rgba(0, 0, 0, 0.767);
+  background-color: #0a0a0a;
 }
 .ourclasses_list_description {
   display: flex;
@@ -42,7 +42,7 @@
   border: none;
   width: 40px;
   height: 40px;
-  background-color: rgba(0, 0, 0, 0.836);
+  background-color: rgba(255, 255, 255, 0.1);
   color: white;
   border-radius: 3px;
   box-shadow: 2px;
@@ -50,4 +50,31 @@
 }
 .ourclasses_btn :hover {
   color: #f36100;
+}
+.ourclasses_second_container {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: center;
+  /* justify-content: space-around; */
+  width: 100%;
+}
+.ourclasses_big_img {
+  width: 550px;
+  height: 350px;
+}
+.ourclasses_bigimg_container {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.ourclasses_big_img_matter {
+  width: 550px;
+  height: 100px;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 3px; */
+  background-color: #0a0a0a;
 }

@@ -1,0 +1,30 @@
+.registernow_background_container {
+  background-image: url("C:/Pavan Projects/Beefit/beefit/public/Images/banner 3.jpg");
+  background-size: cover;
+  /* opacity: 0.5; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+.register_matter_onimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.Register_btn {
+  background-color: transparent;
+  border: 1px solid #f36100;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  color: #fff;
+}
+.Register_btn:hover {
+  background-color: #f36100;
+  /* border: 1px solid #fff; */
+}
