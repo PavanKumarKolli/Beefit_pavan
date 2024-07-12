@@ -1,0 +1,27 @@
+.Classes_backgroundimg_container{
+    background-image: url("D:/Beefit_pavan-main/Beefit_pavan-main/public/Images/Aboutus...jpg");
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.classes-h1class{
+    font-size: 60px;
+    /* color: red; */
+}
+
+@media (max-width:"768px"){
+    .Classes_backgroundimg_container{
+        background-image: url("D:/Beefit_pavan-main/Beefit_pavan-main/public/Images/Aboutus...jpg");
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

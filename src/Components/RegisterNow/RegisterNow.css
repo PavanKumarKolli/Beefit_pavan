@@ -1,0 +1,67 @@
+.registernow_background_container {
+  background-image: url("D:/Beefit_pavan-main/Beefit_pavan-main/public/Images/banner 3.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  height: 70vh;
+}
+
+.register_matter_onimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.Register_btn {
+  border: 1px solid #f36100;
+  background-color: transparent;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+}
+
+
+.Register_btn:hover {
+  background-color: #f36100;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .registernow_background_container {
+    width: 100%;
+    height: 50vh; 
+  }
+  .register_matter_onimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+  }
+  .Register_btn {
+    border: 1px solid #f36100;
+    background-color: transparent;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .registernow_background_container {
+    height: 40vh; 
+  width: 100%;
+  }
+
+  .Register_btn {
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+  }
+}

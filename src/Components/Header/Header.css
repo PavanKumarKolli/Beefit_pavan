@@ -1,0 +1,74 @@
+
+.Header_Subcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #151515;
+  position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.Header_logo_image img {
+  width: 150px;
+}
+
+.Header_Span_container {
+  display: flex;
+  gap: 20px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.Header_Span_container span {
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.Header_Span_container span:hover,
+.Header_Span_container .active {
+  color: #f36100;
+}
+
+.Header_logo-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .Header_Span_container {
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #151515;
+    transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+
+  .Header_Span_container.open {
+    max-height: 300px;
+    padding: 10px 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

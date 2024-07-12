@@ -1,0 +1,25 @@
+.Aboutus_backgroundimg_container{
+    background-image: url("D:/Beefit_pavan-main/Beefit_pavan-main/public/Images/Aboutus...jpg");
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1class{
+    font-size: 60px;
+    /* color: red; */
+}
+
+#hr{
+width: 90%;
+color: rgb(214, 12, 12) !important;
+}
+
+@media (max-width:"768px"){
+    .Aboutus_backgroundimg_container{
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+.Maps-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Maps-maps-location{
+    width: 80%;
+    height: auto;
+}
